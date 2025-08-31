@@ -1,0 +1,3 @@
+/home/user/Masaüstü/chess/build/CMakeFiles/myproject.dir
+/home/user/Masaüstü/chess/build/CMakeFiles/edit_cache.dir
+/home/user/Masaüstü/chess/build/CMakeFiles/rebuild_cache.dir

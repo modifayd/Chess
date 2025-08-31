@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/myproject.dir/main.cpp.o CMakeFiles/myproject.dir/src/chess.cpp.o -o myproject 
