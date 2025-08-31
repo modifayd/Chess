@@ -4,6 +4,7 @@
 /Makefile
 /CMakeCache.txt
 /*.cmake
+/build_gui/
 
 # Executables
 myproject
