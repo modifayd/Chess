@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
-project(ChessGUI)
+project(chess_visual)
 
-# Require C++17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -18,12 +17,7 @@ set(SOURCES
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 # Create executable
-add_executable(ChessGUI ${SOURCES})
+add_executable(chess_visual ${SOURCES})
 
-# Link SFML libraries
-target_link_libraries(ChessGUI sfml-graphics sfml-window sfml-system)
-
-# Optional: set output directory for binaries
-set_target_properties(ChessGUI PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
-)
+# Link SFML (modern CMake style)
+target_link_libraries(chess_visual PRIVATE sfml-graphics sfml-window sfml-system)

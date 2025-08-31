@@ -50,9 +50,6 @@ class chess_pieces{
 class chess_board{
 
     private:
-        // main board
-        int board[BOARD_SIZE][BOARD_SIZE];
-
         // castling move check
         bool is_rook_left_w_moved = false;
         bool is_rook_right_w_moved = false;
@@ -98,6 +95,11 @@ class chess_board{
 
     public:
      
+
+        // main board
+        int board[BOARD_SIZE][BOARD_SIZE];
+
+        
         // Constructor
         chess_board();
 
